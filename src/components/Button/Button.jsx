@@ -5,9 +5,17 @@ import "./styles.css";
 // array: []
 // }
 
-function Button({ name, type }) {
+//деструктуризация - 2 вариант ()
+function Button({ name="SEND", type, onClick }) {
+
+   // const buttonType = "submit";
+  // console.log(props.name);
+
+  //деструктуризация 1 вариант
+  // const {name} = props;
+
   return (
-    <button className="main-button" type={type}>
+    <button className="main-button" type={type} onClick={onClick}>
       {name}
     </button>
   );
