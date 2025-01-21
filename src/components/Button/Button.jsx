@@ -5,16 +5,9 @@ import "./styles.css";
 // array: []
 // }
 
- // деструктуризация 2й вариант
-function Button({name= "SEND"}) {
-  const buttonType = "submit";
-  // console.log(props.name);
-
-  // деструктуризация 1й вариант
-  // const{name} = props;
-
+function Button({ name, type }) {
   return (
-    <button className="main-button" type={buttonType}>
+    <button className="main-button" type={type}>
       {name}
     </button>
   );
