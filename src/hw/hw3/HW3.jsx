@@ -7,6 +7,7 @@ function HW3() {
     <div className="hw3-wrapper">
       <Input
         placeholder="Enter your email"
+        id="input"
         label="Email"
         type="text"
         name="input"
