@@ -4,8 +4,8 @@ import Button from "../Button/Button";
 import { useState } from "react";
 
 function Feedback() {
-  const [numberOfLikes, addLike] = useState(0);
-const [numberOfDislikes, addDislike] = useState(0);
+  const [numberOfLikes, setNumberOfLikes] = useState(0);
+const [numberOfDislikes, setNumberOfDdisikes] = useState(0);
 
   const clickLike = () => {
     addLike((prevState) => prevState + 1);
