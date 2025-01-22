@@ -7,11 +7,12 @@ import "./App.css";
 // import Lesson2 from "./lessons/Lesson2/Lesson2";
 // import Lesson3 from "./lessons/lesson3/lesson3";
 // import Lesson04 from "./lessons/Lesson04/Lesson04";
+import Lesson05 from "./lessons/lesson04/Lesson04";
 
 //homeworks
 // import HW2 from "./hw/hw2/hw2";
 // import HW3 from "./hw/hw3/HW3";
-import HW4 from "./hw/hw4/HW4";
+// import HW4 from "./hw/hw4/HW4";
 
 function App() {
   return (
@@ -27,7 +28,9 @@ function App() {
       {/* <HW3 /> */}
       {/* ---Topic: functions, hooks(useState) */}
       {/* <Lesson04 /> */}
-      <HW4 />
+      {/* <HW4 /> */}
+      {/* --map components */}
+      <Lesson05 />
     </div>
   );
 }

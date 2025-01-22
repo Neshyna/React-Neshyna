@@ -7,8 +7,7 @@ import "./styles.css";
 
 //деструктуризация - 2 вариант ()
 function Button({ name, type, onClick }) {
-
-   // const buttonType = "submit";
+  // const buttonType = "submit";
   // console.log(props.name);
 
   //деструктуризация 1 вариант

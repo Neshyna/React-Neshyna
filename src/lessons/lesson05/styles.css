@@ -1,9 +1,8 @@
-.lesson04-wrapper {
+.lesson05-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 30px;
   flex: 1;
-  background-color: rgba(129, 130, 224, 0.436);
 }
