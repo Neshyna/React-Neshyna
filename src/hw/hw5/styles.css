@@ -1,0 +1,19 @@
+.hw5-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: rgb(145, 218, 166);
+  border-radius: 4px;
+  padding: 20px;
+ 
+ }
+
+ .prodCards{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+ }
